@@ -1,0 +1,15 @@
+C:\Users\TCC\OneDrive\Desktop\C# September 2022\Lab5StudentDB\bin\Debug\net6.0\Lab5StudentDB.exe
+C:\Users\TCC\OneDrive\Desktop\C# September 2022\Lab5StudentDB\bin\Debug\net6.0\Lab5StudentDB.deps.json
+C:\Users\TCC\OneDrive\Desktop\C# September 2022\Lab5StudentDB\bin\Debug\net6.0\Lab5StudentDB.runtimeconfig.json
+C:\Users\TCC\OneDrive\Desktop\C# September 2022\Lab5StudentDB\bin\Debug\net6.0\Lab5StudentDB.dll
+C:\Users\TCC\OneDrive\Desktop\C# September 2022\Lab5StudentDB\bin\Debug\net6.0\Lab5StudentDB.pdb
+C:\Users\TCC\OneDrive\Desktop\C# September 2022\Lab5StudentDB\obj\Debug\net6.0\Lab5StudentDB.csproj.AssemblyReference.cache
+C:\Users\TCC\OneDrive\Desktop\C# September 2022\Lab5StudentDB\obj\Debug\net6.0\Lab5StudentDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TCC\OneDrive\Desktop\C# September 2022\Lab5StudentDB\obj\Debug\net6.0\Lab5StudentDB.AssemblyInfoInputs.cache
+C:\Users\TCC\OneDrive\Desktop\C# September 2022\Lab5StudentDB\obj\Debug\net6.0\Lab5StudentDB.AssemblyInfo.cs
+C:\Users\TCC\OneDrive\Desktop\C# September 2022\Lab5StudentDB\obj\Debug\net6.0\Lab5StudentDB.csproj.CoreCompileInputs.cache
+C:\Users\TCC\OneDrive\Desktop\C# September 2022\Lab5StudentDB\obj\Debug\net6.0\Lab5StudentDB.dll
+C:\Users\TCC\OneDrive\Desktop\C# September 2022\Lab5StudentDB\obj\Debug\net6.0\refint\Lab5StudentDB.dll
+C:\Users\TCC\OneDrive\Desktop\C# September 2022\Lab5StudentDB\obj\Debug\net6.0\Lab5StudentDB.pdb
+C:\Users\TCC\OneDrive\Desktop\C# September 2022\Lab5StudentDB\obj\Debug\net6.0\Lab5StudentDB.genruntimeconfig.cache
+C:\Users\TCC\OneDrive\Desktop\C# September 2022\Lab5StudentDB\obj\Debug\net6.0\ref\Lab5StudentDB.dll
