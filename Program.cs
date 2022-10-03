@@ -10,7 +10,7 @@ namespace Lab5StudentDB
         {
 
             //ARRAYS REQUESTED FOR PROGRAM
-            string[] names = new string[9] { "Charlotte", "Assumpcao", "JellyBean", "Dracula", "Ronan", "Tina", "Gordon", "Torian", "Elohim" };
+            string[] names = new string[9] { "1. Charlotte", "2. Assumpcao", "3. JellyBean", "4. Dracula", "5. Ronan", "6. Tina", "7. Gordon", "8. Torian", "9. Elohim" };
             string[] hometown = new string[9] { "Nashville", "Rio De Janeiro", "the Grocery Store", "Transylvania", "Tokyo", "Preston", "a Blackhole", "the Forest", "Elven woods" };
             string[] favFood = new string[9] { "BBQ", "churasco", "Jellybeans", "...you already know", "Sushi", "Chimi Changas", "negative energy", "field rabbits", "beans" };
 
@@ -92,7 +92,7 @@ namespace Lab5StudentDB
         //RETRY METHOD
         public static bool AskToContinue()
         {
-            Console.WriteLine("Would you like to learn about another student? Y/N");
+            Console.WriteLine("Would you like to learn more? Y/N");
             string input = Console.ReadLine().ToLower();
 
             if (input == "y")
