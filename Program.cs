@@ -10,7 +10,7 @@ namespace Lab5StudentDB
         {
 
             //ARRAYS REQUESTED FOR PROGRAM
-            string[] names = new string[9] { "1.Charlotte", "2.Assumpcao", "3.JellyBean", "4.Dracula", "5.Ronan", "6.Tina", "7.Gordon", "8.Torian", "9.Elohim" };
+            string[] names = new string[9] { "(1)Charlotte", "(2)Assumpcao", "(3)JellyBean", "(4)Dracula", "(5)Ronan", "(6)Tina", "(7)Gordon", "(8)Torian", "(9)Elohim" };
             string[] hometown = new string[9] { "Nashville", "Rio De Janeiro", "the Grocery Store", "Transylvania", "Tokyo", "Preston", "a Blackhole", "the Forest", "Elven woods" };
             string[] favFood = new string[9] { "BBQ", "churasco", "Jellybeans", "...you already know", "Sushi", "Chimi Changas", "negative energy", "field rabbits", "beans" };
 
@@ -56,7 +56,7 @@ namespace Lab5StudentDB
                     {
 
                         //OUTPUT THE NAME OF STUDENT AND ASK IF THEY WANT TO KNOW MORE - CONVERT RESPONSE TO VARIABLE
-                        Console.WriteLine($"Student " + input + " is " + (names[studentNumber - 1]) + " What would you like to know? Enter \"hometown\" or \"favorite food\":");
+                        Console.WriteLine($"Student " + input + " is " + (names[studentNumber - 1]) + " What would you like to know? Enter \"hometown (home)\"  or \"favorite food (food)\":");
                         string userInput = Console.ReadLine().ToLower();
 
                         //IF LOOP TO DETERMINE WHICH ARRAY WILL BE CALLED ON SECOND PROMPT (i.e "hometwown" or "Favorite Food")
@@ -72,12 +72,12 @@ namespace Lab5StudentDB
                         {
                             //OUTPUT THE STUDENTS FAVORITE FOOD
                             int studentFood = studentNumber;
-                            Console.WriteLine((names[studentNumber - 1]) + "'s favorite food happens to be " + favFood[studentFood - 1]);
+                            Console.WriteLine((names[studentNumber - 1]) + "'s" + " favorite food happens to be " + favFood[studentFood - 1]);
                             tryAgain = false;
                         }
                         else
                         {
-                            Console.WriteLine("I didn't get that. Please enter \"hometown\" or \"favorite food\":");
+                            Console.WriteLine("I didn't get that. Please enter \"hometown (home)\"  or \"favorite food (food)\":");
                             continue;
                         }
                     }
@@ -97,7 +97,7 @@ namespace Lab5StudentDB
 
             if (input == "y")
             {
-                Console.WriteLine("Enter a different student ID between 1 and 9");
+                Console.WriteLine("Enter a student ID between 1 and 9");
                 return true;
             }
             else if (input == "n")
